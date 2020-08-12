@@ -7,7 +7,7 @@ import java.util.List;
 import org.student.entity.Student;
 
 public class StudentDao {
-	//通过学号查询学生是否存在
+	//通过学号查询学生是否存在 很重要
 	public boolean isExist(int sno) {
 		return queryStudentByno(sno) == null?false:true;
 	}
